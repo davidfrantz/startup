@@ -6,7 +6,7 @@ This repository contains useful stuff at startup
 - set UMASK for collaborative use as a team
 - display how much space is left on disks you want to monitor
 - display if there are active screens present
-- set some aliase for FORCE etc.
+- set some aliase for FORCE, GDAL, Jupyter, etc.
 - check if you can run Docker containers
 - add a launcher for Dockerized QGIS in a screen
 
