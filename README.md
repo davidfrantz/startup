@@ -8,6 +8,7 @@ This repository contains useful stuff at startup
 - display if there are active screens present
 - set some aliase for FORCE etc.
 - check if you can run Docker containers
+- add a launcher for Dockerized QGIS in a screen
 
 
 ## Attention
