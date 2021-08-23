@@ -28,3 +28,5 @@ echo ""; screen -ls; echo ""
 # set alias
 source set-alias.sh
 
+# can I run Docker?
+can-I-run-docker.sh
