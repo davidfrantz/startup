@@ -56,4 +56,15 @@ docker run \
 davidfrantz/force:dev \
 bash'
 
+alias dgdal=' \
+docker run \
+-v /data:/data \
+-v /mnt:/mnt \
+-v $HOME:$HOME \
+-w $PWD \
+-u $(id -u):$(id -g) \
+-t \
+--rm \
+osgeo/gdal'
+
 #exit 0
