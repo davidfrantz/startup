@@ -18,6 +18,8 @@ A new `$HOME/.profile` is installed. Make a backup of yours, if necessary.
 
 ## Installation
 
+Run with user privileges (not as sudo!)
+
 - `./install.sh`
 
 - Log off/in.
