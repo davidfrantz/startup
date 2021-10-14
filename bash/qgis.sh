@@ -90,6 +90,7 @@ docker run \
   -v $HOME:$HOME \
   -v /data:/data \
   -v /mnt:/mnt \
+  -v /export:/export \
   --user=$(id -u $USER):$(id -g $USER) \
   --net host \
   qgis/qgis:$VERSION qgis

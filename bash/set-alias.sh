@@ -19,6 +19,7 @@ docker run \
 -v $HOME:/app/credentials \
 -v /data:/data \
 -v /mnt:/mnt \
+-v /export:/export \
 -v $HOME:$HOME \
 -w $PWD \
 -u $(id -u):$(id -g) \
@@ -33,6 +34,7 @@ docker run \
 -v $HOME:/app/credentials \
 -v /data:/data \
 -v /mnt:/mnt \
+-v /export:/export \
 -v $HOME:$HOME \
 -w $PWD \
 -u $(id -u):$(id -g) \
@@ -47,6 +49,7 @@ docker run \
 -v $HOME:/app/credentials \
 -v /data:/data \
 -v /mnt:/mnt \
+-v /export:/export \
 -v $HOME:$HOME \
 -w $PWD \
 -u $(id -u):$(id -g) \
@@ -60,6 +63,7 @@ alias dgdal=' \
 docker run \
 -v /data:/data \
 -v /mnt:/mnt \
+-v /export:/export \
 -v $HOME:$HOME \
 -w $PWD \
 -u $(id -u):$(id -g) \
