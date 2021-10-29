@@ -40,7 +40,7 @@ docker run \
 -u $(id -u):$(id -g) \
 -t \
 --rm \
-davidfrantz/force-debug'
+davidfrantz/force:latest-debug'
 
 alias dforce-dev=' \
 docker run \
