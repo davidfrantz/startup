@@ -27,6 +27,21 @@ docker run \
 --rm \
 davidfrantz/force'
 
+alias dforce-debug=' \
+docker run \
+-e FORCE_CREDENTIALS=/app/credentials \
+-e BOTO_CONFIG=/app/credentials/.boto \
+-v $HOME:/app/credentials \
+-v /data:/data \
+-v /mnt:/mnt \
+-v /export:/export \
+-v $HOME:$HOME \
+-w $PWD \
+-u $(id -u):$(id -g) \
+-t \
+--rm \
+davidfrantz/force-debug'
+
 alias dforce-dev=' \
 docker run \
 -e FORCE_CREDENTIALS=/app/credentials \
@@ -41,6 +56,21 @@ docker run \
 -t \
 --rm \
 davidfrantz/force:dev'
+
+alias dforce-dev-debug=' \
+docker run \
+-e FORCE_CREDENTIALS=/app/credentials \
+-e BOTO_CONFIG=/app/credentials/.boto \
+-v $HOME:/app/credentials \
+-v /data:/data \
+-v /mnt:/mnt \
+-v /export:/export \
+-v $HOME:$HOME \
+-w $PWD \
+-u $(id -u):$(id -g) \
+-t \
+--rm \
+davidfrantz/force:dev-debug'
 
 alias dforce-dev-it=' \
 docker run \
